@@ -1,0 +1,57 @@
+{
+  "iterations" : 30,
+  "operatingSystem" : "Version 27.0.1 (Build 26A434)",
+  "samples" : [
+    {
+      "footprintBytes" : 22791104,
+      "phase" : "cold",
+      "residentBytes" : 75333632,
+      "thumbnailCount" : 0,
+      "thumbnailPixelBytes" : 0
+    },
+    {
+      "footprintBytes" : 33031200,
+      "phase" : "first_open",
+      "residentBytes" : 99303424,
+      "thumbnailCount" : 4,
+      "thumbnailPixelBytes" : 1833472
+    },
+    {
+      "footprintBytes" : 33653792,
+      "phase" : "closed_10",
+      "residentBytes" : 99958784,
+      "thumbnailCount" : 4,
+      "thumbnailPixelBytes" : 1833472
+    },
+    {
+      "footprintBytes" : 33735712,
+      "phase" : "closed_20",
+      "residentBytes" : 86753280,
+      "thumbnailCount" : 4,
+      "thumbnailPixelBytes" : 1833472
+    },
+    {
+      "footprintBytes" : 33784864,
+      "phase" : "closed_30",
+      "residentBytes" : 86802432,
+      "thumbnailCount" : 4,
+      "thumbnailPixelBytes" : 1833472
+    },
+    {
+      "footprintBytes" : 33768480,
+      "phase" : "idle_3s",
+      "residentBytes" : 86786048,
+      "thumbnailCount" : 4,
+      "thumbnailPixelBytes" : 1833472
+    },
+    {
+      "footprintBytes" : 33227808,
+      "phase" : "idle_15s",
+      "residentBytes" : 86294528,
+      "thumbnailCount" : 0,
+      "thumbnailPixelBytes" : 0
+    }
+  ],
+  "screenshotRequests" : 12,
+  "windows" : 4
+}
