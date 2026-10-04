@@ -20,6 +20,19 @@ The image shows demo windows. Real windows display previews when screen recordin
 - On-demand previews with a bounded 8 MiB / 24-image cache. Images are released 10 seconds after closing the switcher.
 - No network requests, analytics, or ads during normal use.
 
+## Install with Homebrew
+
+This repository also provides a custom tap for Apple Silicon Macs running macOS 14 or later. With Homebrew installed:
+
+```sh
+brew tap jiig6tyg1/altwindow https://github.com/jiig6tyg1/AltWindow.git
+brew install --cask jiig6tyg1/altwindow/altwindow
+```
+
+To update, run `brew update` followed by `brew upgrade --cask jiig6tyg1/altwindow/altwindow`. To uninstall, run `brew uninstall --cask altwindow`. Homebrew may ask you to trust this third-party tap or cask.
+
+The downloadable build is not notarized. Homebrew installation does not bypass macOS security checks or permission prompts. If you already installed AltWindow manually, quit it and back up that app before switching to Homebrew management. Changing signatures may require granting permissions again.
+
 ## Requirements and installation
 
 macOS 14 or later. The downloadable build targets **Apple Silicon**. Runtime testing was performed on macOS 27.0.1. Intel Macs, macOS 14/15/26, and multi-display / cross-Space behavior have not all been verified on hardware.

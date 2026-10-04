@@ -12,6 +12,19 @@ macOS 14以降が対象です。macOS 26以降はネイティブLiquid Glass、1
 
 [ダウンロード](https://github.com/jiig6tyg1/AltWindow/releases/tag/v1.00) · [更新履歴](CHANGELOG.md) · [MIT License](LICENSE)
 
+## Homebrewでインストール
+
+Apple Silicon・macOS 14以降向けの独自tapです。Homebrew導入済みの環境で実行してください。
+
+```sh
+brew tap jiig6tyg1/altwindow https://github.com/jiig6tyg1/AltWindow.git
+brew install --cask jiig6tyg1/altwindow/altwindow
+```
+
+更新は `brew update` の後に `brew upgrade --cask jiig6tyg1/altwindow/altwindow`、削除は `brew uninstall --cask altwindow` です。初回は独自tapの信頼確認が表示される場合があります。
+
+配布版は未公証です。Homebrewから導入してもmacOSの起動確認や権限許可は必要です。既に手動導入したAltWindowがある場合は先に終了し、そのアプリをバックアップしてからHomebrew管理へ移行してください。署名が変わる場合は権限の再許可が必要です。
+
 ## はじめに
 
 1. 常用する場合は `AltWindow.app` をアプリケーションフォルダへ移動してから起動します。
