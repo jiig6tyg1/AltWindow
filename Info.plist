@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleExecutable</key><string>AltWindow</string>
+    <key>CFBundleIdentifier</key><string>local.windowhop.mac</string>
+    <key>CFBundleName</key><string>AltWindow</string>
+    <key>CFBundleDisplayName</key><string>AltWindow</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>CFBundleShortVersionString</key><string>1.00</string>
+    <key>CFBundleVersion</key><string>8</string>
+    <key>LSMinimumSystemVersion</key><string>14.0</string>
+    <key>LSUIElement</key><true/>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSScreenCaptureUsageDescription</key><string>切り替えパネルにウィンドウのプレビューを表示します。画像は保存・送信されません。</string>
+</dict></plist>
