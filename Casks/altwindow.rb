@@ -8,7 +8,7 @@ cask "altwindow" do
   homepage "https://github.com/jiig6tyg1/AltWindow"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "AltWindow.app"
 
